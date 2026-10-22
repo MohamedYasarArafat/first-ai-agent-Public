@@ -24,3 +24,34 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Yasar Techy — light gray scrollbar */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #737373 transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #737373;
+  border: 1px solid #111111;
+  border-radius: 10px;
+  transition: background 0.2s ease;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #a3a3a3;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:active {
+  background: #ff9f0a;
+}
